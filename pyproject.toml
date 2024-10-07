@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "memo"
+version = "0.1.0"
+description = ""
+authors = ["Jeyoung Jeong <mumng713@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+jinja2 = "^3.1.4"
+uvicorn = "^0.31.0"
+itsdangerous = "^2.2.0"
+sqlalchemy = "^2.0.35"
+pymysql = "^1.1.1"
+cryptography = "^43.0.1"
+passlib = "^1.7.4"
+bcrypt = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
